@@ -43,3 +43,13 @@ app.post("/calculate", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
+
+
+
+
+
+
+
+
+
+write a docker file to deploy an application on nginx web server deploy your own application (we have to write a docker file)
