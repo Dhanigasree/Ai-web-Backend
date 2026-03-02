@@ -78,3 +78,13 @@ EXPOSE 8080
 
 CMD ["catalina.sh", "run"]
  
+
+
+
+
+
+docker run -d \
+  --name mongodb \
+  --network app-network \
+  -p 27017:27017 \
+  mongo:7
